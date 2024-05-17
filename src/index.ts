@@ -5,6 +5,7 @@ import http from "http";
 import cors from "cors";
 import morgan from "morgan";
 import helmet from "helmet";
+import newrelic from 'newrelic'
 import cookieParser from "cookie-parser";
 import connectDB from "./config/dbConfig";
 
